@@ -1,8 +1,8 @@
 module.exports = {
     servers:[
         {
-            url:"http://localhost:3030",
-            description:"Local server, npm run dev"
+            url:"https://whispering-mesa-94032.herokuapp.com",
+            description:"Heroku Hosted App"
         },
     ]
 }
