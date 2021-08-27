@@ -5,6 +5,7 @@ const bookings = require("./v1/bookings.js");
 const mongoose = require('mongoose');
 const uri = "mongodb+srv://trapLord2:trapLord_123@cluster0.mstc8.mongodb.net/shawtyManager?retryWrites=true&w=majority"
 const app = express();
+const register = require("./v1/register.js");
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./docs');
 app.use(bodyParser.json());
